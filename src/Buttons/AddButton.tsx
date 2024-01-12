@@ -5,7 +5,7 @@ interface AddButtonProps {
 }
 
 const AddButton: React.FC<AddButtonProps> = ({ onAddClick }) => {
-  return <button onClick={onAddClick}>Add</button>;
+  return <button className='aButton' onClick={onAddClick}>Add</button>;
 };
 
 export default AddButton;
